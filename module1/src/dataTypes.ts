@@ -45,3 +45,21 @@ let numbers: number[] = [1, 2, 56, 23];
 let stringNumber: [number, string] = [30, "Sabbir"];
 
 let anyTypesData: [string, number, boolean] = ["Sabbir", 30, true];
+
+// object data type
+
+// type alias
+
+const user: {
+  slag: "Md."; // type --> literal type (jodi kno specific fixed value hoi tobe take type hisabe user kora jai)
+  name: string;
+  lastName?: string; //optional type
+  age: number;
+} = {
+  slag: "Md.",
+  name: "Sabbir",
+  age: 35,
+};
+
+// user.name = "Hossain";
+console.log(user.name);
