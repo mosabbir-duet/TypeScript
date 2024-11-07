@@ -28,3 +28,12 @@ let numbers = [1, 2, 56, 23];
 // tuple means couple ..mane array hbe but same array te different type data like string boolean number store kora jabe order ways
 let stringNumber = [30, "Sabbir"];
 let anyTypesData = ["Sabbir", 30, true];
+// object data type
+// type alias
+const user = {
+    slag: "Md.",
+    name: "Sabbir",
+    age: 35,
+};
+// user.name = "Hossain";
+console.log(user.name);
